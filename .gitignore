@@ -10,3 +10,7 @@ coverage/
 *.swo
 .vscode/
 .idea/
+
+# Don't ignore project subdirectories
+!projects/*/
+!projects/*/.git
