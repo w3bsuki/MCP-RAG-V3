@@ -7,11 +7,31 @@
     "pending": [
       {
         "id": "ARCH-001",
-        "title": "Analyze PRD and create technical specifications",
+        "title": "Analyze MCP Dashboard PRD and create technical specifications",
         "assignee": "architect",
         "priority": "high",
         "created": "2025-06-16T13:05:00Z",
-        "description": "Convert incoming PRD into detailed technical specifications including architecture, tech stack, and implementation plan"
+        "project": "mcp-dashboard",
+        "description": "Convert MCP Dashboard PRD into detailed technical specifications including Next.js architecture, API design, and database schema"
+      },
+      {
+        "id": "ARCH-002",
+        "title": "Design real-time communication architecture",
+        "assignee": "architect",
+        "priority": "high",
+        "created": "2025-06-16T20:40:00Z",
+        "project": "mcp-dashboard",
+        "description": "Decide between WebSockets and SSE for real-time updates"
+      },
+      {
+        "id": "BUILD-001",
+        "title": "Implement MCP Monitoring Dashboard",
+        "assignee": "builder",
+        "priority": "high",
+        "created": "2025-06-16T20:40:00Z",
+        "project": "mcp-dashboard",
+        "blockedBy": ["ARCH-001"],
+        "description": "Build complete Next.js application with all features from PRD"
       },
       {
         "id": "VAL-001",

@@ -2,7 +2,7 @@
   "mcpServers": {
     "ragStore": {
       "command": "node",
-      "args": [".mcp/minimal-server.js"],
+      "args": [".mcp/working-server.js"],
       "allowedTools": ["mcp__ragStore__search", "mcp__ragStore__upsert", "mcp__ragStore__get_context"]
     }
   }

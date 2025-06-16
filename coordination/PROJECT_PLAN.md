@@ -18,12 +18,21 @@ Autonomous 3-agent Claude Code system for converting PRDs into production applic
 - Project initialized: 2025-06-16
 - Git worktrees created for all agents
 - MCP RAG server configured
-- Ready for PRD input
+- **Active Project**: MCP Monitoring Dashboard (started 2025-06-16)
+
+## Active Project: MCP Monitoring Dashboard
+- **Location**: projects/mcp-dashboard/
+- **Description**: Web dashboard for monitoring and controlling MCP agents
+- **Tech Stack**: Next.js, TypeScript, shadcn/ui, Vercel
+- **Project Worktrees**:
+  - projects/mcp-dashboard/architect
+  - projects/mcp-dashboard/builder
+  - projects/mcp-dashboard/validator
 
 ## Next Steps
-1. Architect: Analyze incoming PRD and create technical specifications
-2. Builder: Wait for specifications from architect
-3. Validator: Set up testing infrastructure
+1. Architect: Analyze PRD at projects/mcp-dashboard/PRD.md and create technical specifications
+2. Builder: Wait for specifications from architect, then implement
+3. Validator: Set up testing infrastructure and monitor builder progress
 
 ## Communication Guidelines
 - Use task-board.json for task updates
