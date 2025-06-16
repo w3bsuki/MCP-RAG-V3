@@ -1,0 +1,12 @@
+node_modules/
+.env
+*.log
+.DS_Store
+.mcp/rag-store/
+dist/
+build/
+coverage/
+*.swp
+*.swo
+.vscode/
+.idea/
